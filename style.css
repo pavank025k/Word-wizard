@@ -1,0 +1,74 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container box */
+.container {
+  background-color: white;
+  padding: 30px;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 20px;
+  color: #2b2b2b;
+}
+
+/* Input box */
+input[type="text"] {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Search button */
+button {
+  padding: 12px 20px;
+  margin-left: 10px;
+  background-color: #314860;
+  color: rgb(237, 182, 182);
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Result box */
+.result-box {
+  margin-top: 30px;
+  text-align: left;
+}
+
+/* Each meaning entry */
+.meaning {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f8fafc;
+  border-left: 5px solid #007bff;
+  border-radius: 5px;
+}
